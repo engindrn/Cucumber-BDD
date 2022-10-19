@@ -1,3 +1,4 @@
+@brd
 Feature: US006 Parametre Kullanimi
 
   Scenario: TC01 Parameetre Kullanimi

@@ -3,23 +3,18 @@ package stepDefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import org.apache.poi.ss.formula.functions.T;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 import pages.GoogleTrendyolMorhipoPage;
 
 import utilities.ConfigReader;
 import utilities.Driver;
 
-import java.util.List;
+public class TrendyolMorhipoStepDefinition {
 
-public class TrendyolMorhipoStepDefinetion {
-
-    int mhSadeceSonucYazisi;
+    int mhSadeceSonucYazisi;             //farklı methodlarda kullanabilmek için variable imizin classda oluşturduk
     int tysadeceSonucYazisi;
 
     GoogleTrendyolMorhipoPage googleTrendyolMorhipoPagePage = new GoogleTrendyolMorhipoPage();

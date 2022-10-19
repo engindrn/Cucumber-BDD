@@ -6,9 +6,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin={"html:target\\cucumber-reports.html",  //runnerdan çalıştırınca targetın altında rapor verir
+                "json:target/json-reports/cucumber.json",
+                "junit:target/xml-report/cucumber.xml" },
         features = "src/test/resources/features",      //features ile stepDefinationu glue ile birbirin tanıttık
         glue = "stepDefinitions",
-        tags = "@rent",
+        tags = "@US019",
         dryRun = false             //true yaparsak dersek testimizi calistirmadan eksik adimlari bize verir
 )
 

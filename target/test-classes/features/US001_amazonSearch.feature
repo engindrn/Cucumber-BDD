@@ -1,14 +1,14 @@
 
 @All
 Feature: US001 Amazon Search
-@grp1
+
   Scenario: TC01 Kullancı amazonda nutella aratır
 
     Given Kullanici amazon sayfasina gider
     Then Kullanici nutella aratir
     And Sonuclarin nutalla icerdigini test eder
 
-@grp3
+  @grp1
   Scenario: TC02 Kullancı amazonda Selenium aratır
 
     Given Kullanici amazon sayfasina gider

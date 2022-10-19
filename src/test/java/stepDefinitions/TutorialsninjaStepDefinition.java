@@ -14,7 +14,7 @@ import java.util.Collections;
 import java.util.List;
 
 
-public class TutorialsninjaStepDefination {
+public class TutorialsninjaStepDefinition {
 
     List<String> listTelMarkalari = new ArrayList<>();
     List<String> listSepettekiTelMarlkalari = new ArrayList<>();

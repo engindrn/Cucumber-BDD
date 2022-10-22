@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml" },
         features = "src/test/resources/features",      //features ile stepDefinationu glue ile birbirin tanıttık
         glue = "stepDefinitions",
-        tags = "@US019",
+        tags = "@practiceForm",
         dryRun = false             //true yaparsak dersek testimizi calistirmadan eksik adimlari bize verir
 )
 

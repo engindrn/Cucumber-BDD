@@ -2,12 +2,14 @@ pages\Practice_TC07_AutoExerPage.class
 stepDefinitions\AmazonStepDefinition.class
 pages\GoogleTrendyolMorhipoPage.class
 pages\PracticeAmazonPage.class
+pages\PracticeHeroku2Page.class
 stepDefinitions\HepsiBuradaStepDefinition.class
 stepDefinitions\DemoqaStepDefinition.class
 pages\WebDriverUniPage.class
 stepDefinitions\DataTablesStepDefinition.class
 pages\PracticeHerokuPage.class
 pages\AmazonPage.class
+stepDefinitions\PracticeMedunnaStepDefinition.class
 runners\Runner.class
 utilities\Driver.class
 stepDefinitions\PracticeHeroku2StepDefinition.class
@@ -20,6 +22,7 @@ pages\DeomqaPage.class
 pages\GuruPage.class
 stepDefinitions\PracticeAmazonStepDefinition.class
 pages\HerokuPage.class
+pages\PracticeMedunnaPage.class
 stepDefinitions\BlueRentaCarStepDefinition.class
 stepDefinitions\Practice_TC_07stepsAutoExer.class
 stepDefinitions\BlueRentaCarScenarioOutStepDef.class

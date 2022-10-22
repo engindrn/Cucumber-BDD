@@ -105,16 +105,3 @@ public WebElement deleteElement;*/
 //        assert herokuPages.addRemovesElementsText.getText().equals("Add/Remove Elements");
 //    }
 //}
-/*Most Common Selenium Exceptions (En Yaygın Selenyum Exception’ları)
-NoSuchWindowException: değiştirilecek pencere hedefi yoksa oluşur.
-NoSuchFrameException: değiştirilecek çerçeve hedefi yoksa oluşur.
-NoSuchElementException: bir öğe bulunamazsa oluşur
-NoAlertPresentException: sunulmayan uyarıya geçtiğinizde oluşur.
-InvalidSelectorException: yanlış bir seçici nedeniyle oluşur.
-TimeoutException: Bir komutun tamamlanması için yeterli zaman olmadığında atılır.
-ElementNotVisibleException: DOM’daki mevcut bir öğenin gizli olarak ayarlanmış özelliği olduğunda oluşur.
-ElementNotSelectableException: DOM’da bir öğe sunulduğunda ortaya çıkar, ancak bunu seçebilirsiniz.
-NoSuchSessionException: Tarayıcıdan çıktıktan sonra Web Sürücüsü harekete geçiyor
-StaleElementReferenceException:weböğesigeçerliDOM’denayrıldığındaortayaçıkar.
-NullPointerExeption: örn configuration.propertiesde tanımlı olmayan bir adresi featuresde parametre olrak girersek
-DuplicatesStepDefinitionExeption : StepDefinitionda aynı method dan birden fazla olamaz unique olmalı*/

@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.817">
-    <testcase classname="US019" name="TC01 alerts and explicitl wait" time="18.523">
-        <failure message="element click intercepted: Element &lt;li class=&quot;btn btn-light &quot; id=&quot;item-1&quot;&gt;...&lt;/li&gt; is not clickable at point (177, 596). Other element would receive the click: &lt;div id=&quot;fixedban&quot; style=&quot;width:100%;margin:auto;text-align:center;float:none;overflow:hidden;display:scroll;position:fixed;bottom:0;z-index:9999999&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=106.0.5249.119)&#10;Build info: version: '4.1.2', revision: '9a5a329c5a'&#10;System info: host: 'DESKTOP-87DDEGE', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ef39ce74496cdec33c75a4250eea48b9, clickElement {id=bf7b0240-e96c-4b0e-90b2-a286ca5e941c}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ENGN~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59216}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59216/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (ef39ce74496cdec33c75a4250eea48b9)] -&gt; xpath: (//*[@class='btn btn-light '])[11]]&#10;Session ID: ef39ce74496cdec33c75a4250eea48b9" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[Given kullanici "demoUrl" anasayfasina gider................................passed
-And kullanici 2 saniye bekler...............................................passed
-When kullanici Alerts buttonuna tiklar......................................failed
-And kullanici 4 saniye bekler...............................................skipped
-And kullanici On button click, alert will appear after bes seconds karsisindaki click me  butonuna basar.skipped
-And kullanici Allertin gorunur olmasini bekler..............................skipped
-And kullanici Allert uzerindeki yazinin This alert appeared after bes seconds oldugunu test eder.skipped
-And kullanici ok diyerek alerti kapatir.....................................skipped
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.592">
+    <testcase classname="Form doldurma" name="Practice form doldurma" time="13.981">
+        <failure message="invalid argument&#10;  (Session info: chrome=106.0.5249.119)&#10;Build info: version: '4.1.2', revision: '9a5a329c5a'&#10;System info: host: 'DESKTOP-87DDEGE', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ed02e4e7746d08bf2241d040d8bfe09a, clickElement {id=1dd882e5-f7bc-48ed-ae8a-41ae7a50935b}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ENGN~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55586/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (ed02e4e7746d08bf2241d040d8bfe09a)] -&gt; xpath: //input[@name='filename']]&#10;Session ID: ed02e4e7746d08bf2241d040d8bfe09a" type="org.openqa.selenium.InvalidArgumentException"><![CDATA[Given Kullanici "https://testpages.herokuapp.com/styled/basic-html-form-test.html" adresine gider.passed
+When username "kullanici adi" password "sifre" ve textarea "metin alani" kisimlarini doldurur.passed
+And kullanici 3 saniye bekler...............................................passed
+And bir dosya yukler........................................................failed
+And kullanici 3 saniye bekler...............................................skipped
+And checkbox1 i secer.......................................................skipped
+And kullanici 3 saniye bekler...............................................skipped
+And radio2 yi secer.........................................................skipped
+And kullanici 3 saniye bekler...............................................skipped
+And selection item3 secer...................................................skipped
+And kullanici 3 saniye bekler...............................................skipped
+And dropdown itmem4 secer...................................................skipped
+And kullanici 3 saniye bekler...............................................skipped
+And submite tiklar..........................................................skipped
+And kullanici 3 saniye bekler...............................................skipped
+Then dosyanin yuklendigini dogrular.........................................skipped
 
 StackTrace:
-org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li class="btn btn-light " id="item-1">...</li> is not clickable at point (177, 596). Other element would receive the click: <div id="fixedban" style="width:100%;margin:auto;text-align:center;float:none;overflow:hidden;display:scroll;position:fixed;bottom:0;z-index:9999999">...</div>
+org.openqa.selenium.InvalidArgumentException: invalid argument
   (Session info: chrome=106.0.5249.119)
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'DESKTOP-87DDEGE', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ef39ce74496cdec33c75a4250eea48b9, clickElement {id=bf7b0240-e96c-4b0e-90b2-a286ca5e941c}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ENGN~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59216}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59216/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (ef39ce74496cdec33c75a4250eea48b9)] -> xpath: (//*[@class='btn btn-light '])[11]]
-Session ID: ef39ce74496cdec33c75a4250eea48b9
+Command: [ed02e4e7746d08bf2241d040d8bfe09a, clickElement {id=1dd882e5-f7bc-48ed-ae8a-41ae7a50935b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ENGN~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55586/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ed02e4e7746d08bf2241d040d8bfe09a)] -> xpath: //input[@name='filename']]
+Session ID: ed02e4e7746d08bf2241d040d8bfe09a
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -36,8 +44,8 @@ Session ID: ef39ce74496cdec33c75a4250eea48b9
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
 	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
-	at stepDefinitions.DemoqaStepDefinition.kullaniciAlertsButtonunaTiklar(DemoqaStepDefinition.java:25)
-	at ✽.kullanici Alerts buttonuna tiklar(file:///C:/Users/ENGİN/IdeaProjects/com.Batch81Cucumber/src/test/resources/features/US19_ClassWorkDamoqa.Explicit.feature:8)
+	at stepDefinitions.PracticeHeroku2StepDefinition.bir_dosya_yukler(PracticeHeroku2StepDefinition.java:46)
+	at ✽.bir dosya yukler(file:///C:/Users/ENGİN/IdeaProjects/com.Batch81Cucumber/src/test/resources/features/PracticeTestPageHerOku2Form.feature:10)
 ]]></failure>
     </testcase>
 </testsuite>

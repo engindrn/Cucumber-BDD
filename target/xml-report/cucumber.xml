@@ -1,51 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.592">
-    <testcase classname="Form doldurma" name="Practice form doldurma" time="13.981">
-        <failure message="invalid argument&#10;  (Session info: chrome=106.0.5249.119)&#10;Build info: version: '4.1.2', revision: '9a5a329c5a'&#10;System info: host: 'DESKTOP-87DDEGE', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ed02e4e7746d08bf2241d040d8bfe09a, clickElement {id=1dd882e5-f7bc-48ed-ae8a-41ae7a50935b}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ENGN~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55586/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (ed02e4e7746d08bf2241d040d8bfe09a)] -&gt; xpath: //input[@name='filename']]&#10;Session ID: ed02e4e7746d08bf2241d040d8bfe09a" type="org.openqa.selenium.InvalidArgumentException"><![CDATA[Given Kullanici "https://testpages.herokuapp.com/styled/basic-html-form-test.html" adresine gider.passed
-When username "kullanici adi" password "sifre" ve textarea "metin alani" kisimlarini doldurur.passed
-And kullanici 3 saniye bekler...............................................passed
-And bir dosya yukler........................................................failed
-And kullanici 3 saniye bekler...............................................skipped
-And checkbox1 i secer.......................................................skipped
-And kullanici 3 saniye bekler...............................................skipped
-And radio2 yi secer.........................................................skipped
-And kullanici 3 saniye bekler...............................................skipped
-And selection item3 secer...................................................skipped
-And kullanici 3 saniye bekler...............................................skipped
-And dropdown itmem4 secer...................................................skipped
-And kullanici 3 saniye bekler...............................................skipped
-And submite tiklar..........................................................skipped
-And kullanici 3 saniye bekler...............................................skipped
-Then dosyanin yuklendigini dogrular.........................................skipped
-
-StackTrace:
-org.openqa.selenium.InvalidArgumentException: invalid argument
-  (Session info: chrome=106.0.5249.119)
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'DESKTOP-87DDEGE', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed02e4e7746d08bf2241d040d8bfe09a, clickElement {id=1dd882e5-f7bc-48ed-ae8a-41ae7a50935b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ENGN~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55586/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (ed02e4e7746d08bf2241d040d8bfe09a)] -> xpath: //input[@name='filename']]
-Session ID: ed02e4e7746d08bf2241d040d8bfe09a
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
-	at stepDefinitions.PracticeHeroku2StepDefinition.bir_dosya_yukler(PracticeHeroku2StepDefinition.java:46)
-	at ✽.bir dosya yukler(file:///C:/Users/ENGİN/IdeaProjects/com.Batch81Cucumber/src/test/resources/features/PracticeTestPageHerOku2Form.feature:10)
-]]></failure>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="24.76">
+    <testcase classname="US006 Kullanıcı bilgisi sekmesi (Setting) Ana Sayfada düzenlenebilir olmalıdır." name="TC001 Kullanıcı bilgileri &quot;firstname, lastname, email&quot; girerken doldurulan kullanıcı bilgileri olmalıdır." time="21.524">
+        <system-out><![CDATA[Given Kullanici Medunna adresine gider......................................passed
+When Kullanici Sing in simgesine tiklar.....................................passed
+And Kullanici Sing in e tiklar..............................................passed
+And Kullanici Username girer................................................passed
+And Kullanici Password girer................................................passed
+And Kullanici Sing in butonuna tiklar.......................................passed
+And Kullanici account-menu (Efe Efe) tiklar.................................passed
+And Kullanici Settings i tiklar.............................................passed
+And User settings sayfasinda oldugunu dogrular..............................passed
+And Firstname kayit olurken girilen firstname ile ayni olmalidir............passed
+When Lastname kayit olurken girilen lastname ile ayni olmalidir.............passed
+Then Email kayit olurken girilen email ile ayni olmalidir...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US006 Kullanıcı bilgisi sekmesi (Setting) Ana Sayfada düzenlenebilir olmalıdır." name="TC002 &quot;Firstname&quot;güncelleme seçeneği olmalıdır." time="0.688">
+        <system-out><![CDATA[Given Kullanici Medunna adresine gider......................................passed
+When Kullanici Sing in simgesine tiklar.....................................passed
+And Kullanici Sing in e tiklar..............................................passed
+And Kullanici Username girer................................................passed
+And Kullanici Password girer................................................passed
+And Kullanici Sing in butonuna tiklar.......................................passed
+And Kullanici account-menu (Efe Efe) tiklar.................................passed
+And Kullanici Settings i tiklar.............................................passed
+Given Kullanici yeni bir firstname girer....................................passed
+When Kullanici save butonuna tiklar.........................................passed
+Then Firstname nin guncellendigini dogrular.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US006 Kullanıcı bilgisi sekmesi (Setting) Ana Sayfada düzenlenebilir olmalıdır." name="TC003 &quot;Lastname&quot; güncelleme seçeneği olmalıdır." time="0.593">
+        <system-out><![CDATA[Given Kullanici Medunna adresine gider......................................passed
+When Kullanici Sing in simgesine tiklar.....................................passed
+And Kullanici Sing in e tiklar..............................................passed
+And Kullanici Username girer................................................passed
+And Kullanici Password girer................................................passed
+And Kullanici Sing in butonuna tiklar.......................................passed
+And Kullanici account-menu (Efe Efe) tiklar.................................passed
+And Kullanici Settings i tiklar.............................................passed
+Given Kullanici yeni bir lastname girer.....................................passed
+Then Kullanici save butonuna tiklar.........................................passed
+And Lastname nin guncellendigini dogrular...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US006 Kullanıcı bilgisi sekmesi (Setting) Ana Sayfada düzenlenebilir olmalıdır." name="TC004 &quot;E-mail&quot; güncelleme seçeneği olmalıdır." time="0.617">
+        <system-out><![CDATA[Given Kullanici Medunna adresine gider......................................passed
+When Kullanici Sing in simgesine tiklar.....................................passed
+And Kullanici Sing in e tiklar..............................................passed
+And Kullanici Username girer................................................passed
+And Kullanici Password girer................................................passed
+And Kullanici Sing in butonuna tiklar.......................................passed
+And Kullanici account-menu (Efe Efe) tiklar.................................passed
+And Kullanici Settings i tiklar.............................................passed
+Given Kullanici yeni bir Email girer........................................passed
+Then Kullanici save butonuna tiklar.........................................passed
+And Email in guncellendigini dogrular.......................................passed
+]]></system-out>
     </testcase>
 </testsuite>

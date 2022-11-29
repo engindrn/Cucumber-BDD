@@ -32,7 +32,7 @@ public class PracticeMedunnaStepDefinition {
     public void usernameIcinKullaniciAdiniGonderir(String username) {
                                      //feature da bir isim girmedik o yuzden parametre buraya username olr geldi
         username= Faker.instance().name().username();   //böylece araya girip fakerdan username aldık.
-        medunnaPage.username.sendKeys(username);       //burdada onu gönderdik
+        medunnaPage.username.sendKeys(username);       //burdada onu gönderdik/
     }
 
     @And("password icin {string} parolasini gonderir")

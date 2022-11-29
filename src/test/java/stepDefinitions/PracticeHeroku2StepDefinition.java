@@ -29,7 +29,7 @@ public class PracticeHeroku2StepDefinition {
 
         heroku2.username.sendKeys(username);
         heroku2.password.sendKeys(password);
-        heroku2.textarea.clear();                //ordaki yaziyi  sildik
+        heroku2.textarea.clear();                         //ordaki yaziyi  sildik
         heroku2.textarea.sendKeys(textarea);
 
     }

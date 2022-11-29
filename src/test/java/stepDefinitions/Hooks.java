@@ -19,6 +19,8 @@ public class Hooks {
        biz her senaryodan sonra test sonucunu kontrol edip faild olan scenariolar için screenschoot alması
        amacıyşa @After notasyonu kullanacagız*/
 
+    //BU RAPORU ALABILMEK ICIN RUNNER CLASSINDAN CALISTIRMAMIZ GEREKIR
+
 
 
     @After
@@ -26,7 +28,7 @@ public class Hooks {
             Driver.getDriver()).getScreenshotAs(OutputType.BYTES);  if (scenario.isFailed()) {
         scenario.attach(screenshot, "image/png","screenshots");
     }
-       // Driver.closeDriver();
+       // Driver.closeDriver();  after class olr her testten sonra driveri kapatmamasi icin yoruma aldim
     }
 }
 

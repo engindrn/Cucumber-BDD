@@ -85,6 +85,16 @@ public class PracticeHeroku2StepDefinition {
         int rastgele= random.nextInt(select.getOptions().size()-1);     //getOptions methoduyla büytün
         select.selectByIndex(rastgele);                                      //dropdawn ı seçtik.bize list dönderir bunuda random için bound(sınır) değeri olarak verdik
                 //random calsından bir obje oluşturduk menüden rastgele seçim yapması için
+
+        //ORN
+    // Random random1=new Random();                       // class levelda Random random; seklinde de olusturulabilir
+    // int random1= (int)(Math.random()*10);             // 10 kdar rastgele secer
+    // select=new Select(us21page.physicianSelect);              //buda class levelda
+    // select.deselectByIndex(random1);
+
+
+
+
     }
     @When("submite tiklar")
     public void submite_tiklar() {
